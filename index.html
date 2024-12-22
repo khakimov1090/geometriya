@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometriya</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main {
+            padding: 20px;
+        }
+        .uchburchak, .uy {
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label, input, button {
+            margin-bottom: 10px;
+        }
+        @media (min-width: 768px) {
+            .form-container {
+                display: flex;
+                justify-content: space-between;
+            }
+            form {
+                width: 48%;
+            }
+        }
+        .li {
+            color: black;
+            text-align: center;
+        }
+        .pifagoruch {
+            width: 100%;
+            max-width: 500px;
+        }
+        .uchburchak {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .p {
+            width: 100%;
+            max-width: 500px;
+        }
+        body {
+            background-color: aquamarine;
+        }
+        .main h3 {
+            text-align: center;
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .main h1 {
+            text-align: center;
+        }
+        .uy h4 {
+            width: 100%;
+            max-width: 500px;
+        }
+        .uyrasm {
+            width: 100%;
+            max-width: 500px;
+        }
+        .uy {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .kalk {
+            text-align: center;
+            margin-bottom: 100px;
+        }
+        .tek {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="li">PIFAGOR TEOREMASI</h1>
+    </header>
+
+    <div class="main">
+        <h3>Pifagor teoremasi qadimgi matematikadan kelib chiqqan va turli xalqlar tomonidan mustaqil ravishda kashf etilgan. Uning eng mashhur shakli qadimgi yunon matematiklari bilan bog‘liq, xususan Pifagor (miloddan avvalgi taxminan 570–495-yillar) bilan. Quyida teoremaning kelib chiqish tarixiga qisqacha to‘xtalamiz:</h3>
+
+        <div class="uchburchak">
+            <img class="pifagoruch" src="images/DALL·E 2024-12-22 23.13.54 - A detailed diagram of a right triangle (Pythagorean triangle) with labeled sides a, b, and c. The triangle is oriented with the right angle at the bot.webp" alt="">
+            <div class="p">
+                Pifagor uchburchagi yoki to’g‘ri burchakli uchburchak – bu uchburchakning ikkita oyoqlari (katetlari) kvadratlarining yig‘indisi uchinchi tomonning (gipotenuzaning) kvadratiga teng bo‘ladigan uchburchakdir. Bu munosabat **Pifagor teoremasi** bilan ifodalanadi:
+                <br><br>
+                
+
+\[
+                a^2 + b^2 = c^2
+                \]
+
+
+                <br><br>
+                Bu yerda:
+                - \( a \) va \( b \) – uchburchakning katetlari,
+                - \( c \) – gipotenuza.
+                <br><br>
+                ### Pifagor Uchburchagiga Mos Uchburchaklar
+                Pifagor uchburchagi hosil qiluvchi butun sonlar to‘plamiga **Pifagor sonlari** deyiladi. Masalan:
+                1. \( 3, 4, 5 \):
+                   \( 3^2 + 4^2 = 5^2 \)
+                   \( 9 + 16 = 25 \)
+                   <br><br>
+                2. \( 5, 12, 13 \):
+                   \( 5^2 + 12^2 = 13^2 \)
+                   \( 25 + 144 = 169 \)
+                   <br><br>
+                3. \( 8, 15, 17 \):
+                   \( 8^2 + 15^2 = 17^2 \)
+                   \( 64 + 225 = 289 \)
+                   <br><br>
+                ### Xususiyatlari
+                1. **To‘g‘ri burchak**: Pifagor uchburchagida eng uzun tomon (gipotenuza) to‘g‘ri burchakka qarama-qarshi bo‘ladi.
+                2. **Sonlar nisbatlari**: Pifagor sonlarini \( k \)-marta kattalashtirish orqali ham yangi uchburchak hosil qilish mumkin. Masalan, \( 6, 8, 10 \) uchburchagi \( 3, 4, 5 \)-ning ikki marta kattalashtirilganidir.
+                3. **Amaliy qo‘llanilishi**: Arxitektura, muhandislik va trigonometriyada keng qo‘llaniladi.
+            </div>
+        </div>
+
+        <div class="uy">
+            <img class="uyrasm" src="images/DALL·E 2024-12-23 00.12.20 - An illustrated diagram of a house showing various uses of the Pythagorean theorem in construction. Highlight specific areas such as the roof (sloped c.webp" alt="">
+            <h4>### Uyda Pifagor Teoremasining Qo‘llanilish Joylari:
+                <br><br>
+                1. **TOM QURILISHI (Gipotenuza Hisoblash)**
+                   Tomning qiyalik burchagini va uzunligini hisoblashda ishlatiladi. Masalan, tomning vertikal balandligi va poydevori uzunligi ma’lum bo‘lsa, tomning qiya uzunligi topiladi. Bu qurilish materiallarini aniq hisoblashga yordam beradi.
+                <br><br>
+                2. **NARVON UZUNLIGI**
+                   Narvon uy devoriga tik turganda, uning uzunligini aniqlash uchun Pifagor teoremasi ishlatiladi. Masalan, narvon devordan masofa va balandlik bo‘yicha joylashtiriladi.
+                   <br><br>
+                3. **POL YUZALARI (Diagonalni Topish)**
+                   Pol yoki shiftning diagonal uzunligi hisoblanadi, bu esa kafel yoki boshqa qoplamalarni joylashtirishda yordam beradi. To‘g‘ri burchakli xona o‘lchamlarini optimallashtirishda ishlatiladi.
+                   <br><br>
+                4. **DEVORLARDA QUVURLAR VA KABEL YO‘NALISHLARI**
+                   Elektr simlari yoki suv quvurlari diagonal bo‘ylab o‘tkazilishi kerak bo‘lganda, ularning uzunligi Pifagor teoremasi yordamida aniqlanadi. Bu usul vaqt va materiallarni tejaydi.
+                   <br><br>
+                5. **LANDSHAFT LOYIHALASH**
+                   Uy atrofidagi yo‘laklar yoki bo‘laklarning to‘g‘ri burchakli joylashuvini belgilash uchun ishlatiladi. Masalan, hovli yoki bog‘da diagonal yo‘laklar yaratishda aniq masofani hisoblash uchun teorema qo‘llanadi.
+            </h4>
+        </div>
+
+        <h1>Keling endi bularni qayday xisoblashni organib chiqsak</h1>
+
+        <div class="form-container">
+            <form id="form">
+                <label for="uy_katet1">Uyning birinchi katetini kiriting:</label>
+                <input type="number" id="uy_katet1" name="uy_katet1" required>
+                <br><br>
+                <label for="uy_katet2">Uyning ikkinchi katetini kiriting:</label>
+                <input type="number" id="uy_katet2" name="uy_katet2" required>
+                <br><br>
+                <label for="uy_gipatenuza">Uyning gipatenuzasini kiriting:</label>
+                <input type="number" id="uy_gipatenuza" name="uy_gipatenuza" required>
+                <br><br>
+                <label for="tom_katet1">Tomning birinchi katetini kiriting:</label>
+                <input type="number" id="tom_katet1" name="tom_katet1" required>
+                <br><br>
+                <label for="tom_katet2">Tomning ikkinchi katetini kiriting:</label>
+                <input type="number" id="tom_katet2" name="tom_katet2" required>
+                <br><br>
+                <label for="tom_gipatenuza">Tomning gipatenuzasini kiriting:</label>
+                <input type="number" id="tom_gipatenuza" name="tom_gipatenuza" required>
+                <br><br>
+                <button class="tek" type="button" onclick="tekshirish()">Tekshirish</button>
+            </form>
+            <p id="natija"></p>
+        </div>
+    </div>
+
+    <script>
+        function pifagorTeoremasi(a, b) {
+            return Math.sqrt(a**2 + b**2);
+        }
+
+        function tekshirish() {
+            const uyKatet1 = parseFloat(document.getElementById('uy_katet1').value);
+            const uyKatet2 = parseFloat(document.getElementById('uy_katet2').value);
+            const uyGipatenuza = parseFloat(document.getElementById('uy_gipatenuza').value);
+
+            const tomKatet1 = parseFloat(document.getElementById('tom_katet1').value);
+            const tomKatet2 = parseFloat(document.getElementById('tom_katet2').value);
+            const tomGipatenuza = parseFloat(document.getElementById('tom_gipatenuza').value);
+
+            const uyGipatenuzaHisoblangan = pifagorTeoremasi(uyKatet1, uyKatet2);
+            const tomGipatenuzaHisoblangan = pifagorTeoremasi(tomKatet1, tomKatet2);
+
+            if (tomGipatenuza >= tomGipatenuzaHisoblangan && uyGipatenuza >= uyGipatenuzaHisoblangan) {
+                alert("Bu tomni qoyish mumkin");
+            } else {
+                alert("Bu tomni qoyish mumkin emas");
+            }
+        }
+    </script>
+</body>
+</html>
